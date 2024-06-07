@@ -1,0 +1,18 @@
+{
+    "title": "SCSS Selector Finder",
+    "searchPlaceholder": "Entrez un sélecteur...",
+    "includeNodeModules": "Inclure node_modules",
+    "loading": "Chargement...",
+    "totalSelectors": "Total de sélecteurs trouvés",
+    "totalFiles": "Total de fichiers",
+    "caseSensitive": "Sensible à la casse",
+    "search": "Rechercher",
+    "collapseAll": "Tout réduire",
+    "expandAll": "Tout déplier",
+    "result": "résultat",
+    "in": "dans",
+    "file": "fichier",
+    "empty": "Aucun sélecteur dupliqué trouvé.",
+    "noResult": "0 résultat trouvé",
+    "selector": "sélecteur"
+}

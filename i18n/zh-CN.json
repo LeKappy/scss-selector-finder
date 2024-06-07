@@ -1,0 +1,11 @@
+{
+    "title": "SCSS 选择器查找器",
+    "searchPlaceholder": "输入选择器...",
+    "includeNodeModules": "包括 node_modules",
+    "loading": "加载中...",
+    "totalSelectors": "找到的选择器总数",
+    "totalFiles": "文件总数",
+    "caseSensitive": "区分大小写",
+    "search": "搜索",
+    "fold": "折叠"
+}

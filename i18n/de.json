@@ -1,0 +1,11 @@
+{
+    "title": "SCSS Selektor Finder",
+    "searchPlaceholder": "Einen Selektor eingeben...",
+    "includeNodeModules": "node_modules einschließen",
+    "loading": "Lädt...",
+    "totalSelectors": "Gesamtanzahl gefundener Selektoren",
+    "totalFiles": "Gesamtanzahl Dateien",
+    "caseSensitive": "Groß- und Kleinschreibung beachten",
+    "search": "Suchen",
+    "fold": "Einklappen"
+}

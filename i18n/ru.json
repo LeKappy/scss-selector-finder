@@ -1,0 +1,11 @@
+{
+    "title": "Поиск Селектора SCSS",
+    "searchPlaceholder": "Введите селектор...",
+    "includeNodeModules": "Включить node_modules",
+    "loading": "Загрузка...",
+    "totalSelectors": "Всего селекторов найдено",
+    "totalFiles": "Всего файлов",
+    "caseSensitive": "Учитывать регистр",
+    "search": "Поиск",
+    "fold": "Свернуть"
+}

@@ -1,0 +1,18 @@
+{
+    "title": "SCSS Selector Finder",
+    "searchPlaceholder": "Enter a selector...",
+    "includeNodeModules": "Include node_modules",
+    "loading": "Loading...",
+    "totalSelectors": "Total selectors found",
+    "totalFiles": "Total files",
+    "caseSensitive": "Match Case",
+    "search": "Search",
+    "collapseAll": "Collapse All",
+    "expandAll": "Expand All",
+    "result": "result",
+    "in": "in",
+    "file": "file",
+    "empty": "No duplicate selectors found.",
+    "noResult": "0 results found",
+    "selector": "selector"
+}

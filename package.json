@@ -1,0 +1,84 @@
+{
+    "name": "scss-selectors-finder",
+    "displayName": "SCSS Selectors Finder",
+    "description": "A VSCode extension that allows developers to find nested SCSS selectors from compiled CSS selectors. Optimize your workflow by easily navigating through complex selector relationships.",
+    "keywords": [
+        "scss",
+        "css",
+        "selectors",
+        "style",
+        "vscode",
+        "development",
+        "stylesheet",
+        "explorer",
+        "nested",
+        "reverse lookup"
+    ],
+    "publisher": "LeKappy",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/LeKappy/scss-selector-finder"
+    },
+    "version": "1.0.0",
+    "license": "MIT",
+    "engines": {
+        "vscode": "^1.54.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "main": "./extension.js",
+    "activationEvents": [
+        "onView:scssselectorsfinder"
+    ],
+    "contributes": {
+        "viewsContainers": {
+            "activitybar": [
+                {
+                    "id": "scss-selectors-finder",
+                    "title": "SCSS Selectors Finder",
+                    "icon": "media/scss-selectors-finder.svg"
+                }
+            ]
+        },
+        "views": {
+            "scss-selectors-finder": [
+                {
+                    "type": "webview",
+                    "id": "scssselectorsfinder",
+                    "name": "SCSS Selectors Finder"
+                }
+            ]
+        },
+        "configuration": {
+            "type": "object",
+            "title": "SCSS Selectors Finder Configuration",
+            "properties": {
+                "scssSelectorsFinder.includeNodeModules": {
+                    "type": "boolean",
+                    "default": false,
+                    "description": "Include SCSS files from node_modules."
+                }
+            }
+        }
+    },
+    "scripts": {
+        "lint": "eslint .",
+        "pretest": "npm run lint"
+    },
+    "devDependencies": {
+        "@types/glob": "^8.1.0",
+        "@types/mocha": "^10.0.1",
+        "@types/node": "16.x",
+        "@types/vscode": "^1.54.0",
+        "@vscode/test-electron": "^2.3.0",
+        "eslint": "^8.36.0",
+        "glob": "^8.1.0",
+        "mocha": "^10.2.0",
+        "typescript": "^4.9.5"
+    },
+    "dependencies": {
+        "postcss": "^8.4.33",
+        "postcss-scss": "^4.0.9"
+    }
+}

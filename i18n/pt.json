@@ -1,0 +1,11 @@
+{
+    "title": "Localizador de Seletor SCSS",
+    "searchPlaceholder": "Digite um seletor...",
+    "includeNodeModules": "Incluir node_modules",
+    "loading": "Carregando...",
+    "totalSelectors": "Total de seletores encontrados",
+    "totalFiles": "Total de arquivos",
+    "caseSensitive": "Sensível a maiúsculas e minúsculas",
+    "search": "Pesquisar",
+    "fold": "Recolher"
+}
